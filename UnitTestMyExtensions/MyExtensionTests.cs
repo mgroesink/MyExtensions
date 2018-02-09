@@ -29,14 +29,6 @@ namespace UnitTestMyExtensions
                 var rounded20 = MyExtensions.MyExtensionMethods.RoundTo(10.00m, 20);
                 Assert.AreEqual(10m, (decimal)rounded20);
             }
-
-            [TestMethod()]
-            public void AgeTest()
-            {
-                var birthdate = new DateTime(1958, 01, 10);
-                
-            }
-
         }
     }
 }
